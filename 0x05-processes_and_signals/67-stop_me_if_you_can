@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Stops the 7-highlander process by sending SIGTERM
+
+kill -TERM $(pgrep -f 7-highlander)
